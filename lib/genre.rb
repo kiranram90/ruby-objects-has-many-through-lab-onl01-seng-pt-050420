@@ -9,10 +9,7 @@ class Genre
   end
   
   def artist 
-    genre = []
-   genre << self.songs
-   genre.select do |genres|
-     genres.
+    
    
   end
   
