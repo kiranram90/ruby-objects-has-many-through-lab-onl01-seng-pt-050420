@@ -9,7 +9,7 @@ class Genre
   end
   
   def artist 
-    Song.all.select
+    self.songs.select do |
   end
   
   def songs 
