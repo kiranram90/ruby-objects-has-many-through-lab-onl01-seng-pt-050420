@@ -9,14 +9,13 @@ class Genre
   end
   
   def artist 
-    Song.all.select |song|
-     song.ge
+    Song.all.select
   end
   
   def songs 
     Song.all.select do |song|
-      song.genre = self 
-    end
+    song.genre = self 
+   end
   end
   
   def self.all 
