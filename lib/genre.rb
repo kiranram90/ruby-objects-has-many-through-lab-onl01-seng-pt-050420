@@ -9,7 +9,11 @@ class Genre
   end
   
   def artist 
-    self.songs.select do |
+    genre = []
+   genre << self.songs
+   genre.select do |genres|
+     genres.
+   
   end
   
   def songs 
