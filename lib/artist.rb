@@ -21,8 +21,10 @@ class Artist
   end
   
   
-  def genres 
-    
+  def genres
+    Song.all.map do |song|
+      song.genre
+    end
   end
   
   def self.all 
