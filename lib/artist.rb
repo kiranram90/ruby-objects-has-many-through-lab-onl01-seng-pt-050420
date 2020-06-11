@@ -21,7 +21,7 @@ class Artist
   end
   
   def genres 
-    self.songs.genres.each 
+    
   end
   
   def self.all 
