@@ -9,7 +9,8 @@ class Genre
   end
   
   def artist 
-    Genre.all.select 
+    Song.all.select |song|
+     song.ge
   end
   
   def songs 
